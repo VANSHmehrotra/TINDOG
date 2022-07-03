@@ -1,0 +1,163 @@
+#title
+{
+  background-color: #ff4c68;
+    color: white;
+
+
+}
+.fluid-container{
+  padding: 3% 15% 8%;
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+   font-size: 3rem;
+  line-height: 1.5;
+
+}
+body{
+  font-family: 'Montserrat',sans-serif;
+
+
+}
+.navbar-brand{
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100;
+}
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0%;
+
+}
+/* Title Image */
+.title-image{
+  width:20%;
+  transform: rotate(25deg);
+
+  position: absolute;
+  right:23%;
+}
+.middle{
+  font-size: 1.4rem;
+
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+}
+.middlep{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+#features{
+
+  padding: 7% 14%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+.icon{
+  padding-bottom: 5%;
+  color: #ef8172;
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+/* Testimonials */
+#testimonials{
+  padding: 7% 14%;
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+}
+.testimonials-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding:  7% 14%;
+}
+#pricing{
+  padding: 5%;
+  text-align: center;
+}
+.card{
+  height: 380px;
+}
+.column{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+    .title-image{
+      position: static;
+      width:60%;
+      transform: rotate(0);
+
+    }
+    #title{
+      text-align:center;
+    }
+}
+/* CTA SECTION */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+    padding:10% 20%;
+}
+.endp{
+  line-height: 1.5;
+  font-size: 3rem;
+  font-style:'Montserrat',sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+
+}
+#footer{
+  padding-top: 10% ;
+  padding-bottom: 7%;
+  text-align: center;
+
+}
+.endicon{
+  padding: 0% 0.3%;
+}
+.end{
+  color: #8F8F8F;
+}
